@@ -25,3 +25,10 @@ having a std_logic_vector as an input, while changing the up_down and stop input
 To implement moving lights, I had to figure out how exactly the lights worked.  Unable to get a very clear idea of how they moved, I tried several different
 things, eventually getting it to work by reversing the order of that the lights occur, by placing them in a process in the nexys top shell.
 Which order of lights is happening and if the lights are on was determined by an outputs from CE3, that are either high or low based upon a set of circumstances.
+
+#Demoed
+- Basic Moore
+- Basic Mealy
+- More Floors
+- Change Inputs
+- Light Show
